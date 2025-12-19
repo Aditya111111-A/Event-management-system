@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+.container, .form-container, .dashboard { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h1, h2 { text-align: center; margin-bottom: 20px; color: #333; }
+input, select, button { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+button { background: #007bff; color: white; cursor: pointer; font-size: 16px; }
+button:hover { background: #0056b3; }
+nav { background: #333; padding: 15px; color: white; }
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+.table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+.table th, .table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+.table th { background: #f8f9fa; }
+.btn { display: inline-block; padding: 10px 20px; background: #28a745; color: white; text-decoration: none; border-radius: 5px; margin: 10px; }
+.vendor-list div { padding: 15px; border: 1px solid #ddd; margin: 10px 0; background: #f9f9f9; }
