@@ -1,0 +1,21 @@
+event-management/
+├── index.html (Main Login selector)
+├── admin-login.html
+├── vendor-login.html
+├── user-login.html
+├── admin-signup.html
+├── user-signup.html
+├── admin-dashboard.html
+├── vendor-dashboard.html
+├── user-portal.html
+├── add-item.html
+├── products.html
+├── cart.html
+├── checkout.html
+├── success.html
+├── request-item.html
+├── product-status.html
+├── order-status.html
+├── maintain-user.html
+├── maintain-vendor.html
+└── style.css
