@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="admin-dashboard.html">Home</a>
+        <a href="maintain-user.html">Maintain User</a>
+        <a href="maintain-vendor.html">Maintain Vendor</a>
+        <a href="#" onclick="logout()">LogOut</a>
+    </nav>
+    <div class="dashboard">
+        <h1>Welcome Admin!</h1>
+        <div class="maintenance-menu">
+            <h3>Maintenance Menu (Admin access only)</h3>
+            <a href="maintain-user.html">Users Management</a>
+            <a href="maintain-vendor.html">Vendor Management</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
